@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100" role="img" aria-label="PKA">
+  <title>PKA Pictogramme</title>
+  <desc>Pictogramme PKA — lettre A stylisée avec barre verticale orange</desc>
+  <rect width="100" height="100" fill="#f4f1ec"/>
+  <rect x="14" y="20" width="5" height="60" fill="#E8772A"/>
+  <polyline points="34,80 55,20 76,80" fill="none" stroke="#1a1a18" stroke-width="5" stroke-linecap="square" stroke-linejoin="round"/>
+  <line x1="61" y1="50" x2="71" y2="66" stroke="#E8772A" stroke-width="5" stroke-linecap="square"/>
+</svg>
