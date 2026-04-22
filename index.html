@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="PKA — Pierre Koch Architecte. Scan 3D LiDAR, modélisation BIM et visites virtuelles immersives en Alsace depuis 2008.">
+<title>PKA — Numérisation pour l'architecture · Alsace</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Background wireframe grid (évoque nuage de points) -->
+<div class="bg-grid" aria-hidden="true"></div>
+<div class="bg-noise" aria-hidden="true"></div>
+
+<!-- Navigation -->
+<header class="nav">
+  <a href="index.html" class="nav__logo">
+    <span class="nav__logo-mark">PKA</span>
+    <span class="nav__logo-tag">— Pierre Koch Architecte</span>
+  </a>
+  <nav class="nav__links">
+    <a href="index.html" class="active">Accueil</a>
+    <a href="scan-3d.html">Scan 3D</a>
+    <a href="modelisation.html">Modélisation</a>
+    <a href="visites-virtuelles.html">Visites virtuelles</a>
+    <a href="projets.html">Projets</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+  <button class="nav__burger" aria-label="Menu">
+    <span></span><span></span><span></span>
+  </button>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero__meta">
+    <span class="hero__meta-num">01 —</span>
+    <span class="hero__meta-label">Altkirch · Haut-Rhin · est. 2008</span>
+  </div>
+  <h1 class="hero__title">
+    Nous <em>numérisons</em><br>
+    le bâti existant<br>
+    <span class="hero__title-accent">avec précision.</span>
+  </h1>
+  <p class="hero__lead">
+    Relevés LiDAR, modélisation BIM et visites virtuelles immersives
+    pour architectes, promoteurs et collectivités — au millimètre.
+  </p>
+  <div class="hero__cta">
+    <a href="contact.html" class="btn btn--primary">Demander un devis</a>
+    <a href="projets.html" class="btn btn--ghost">Voir nos projets →</a>
+  </div>
+
+  <!-- Coordonnées géo façon relevé technique -->
+  <div class="hero__coords">
+    <span>47.624°N</span>
+    <span class="dot"></span>
+    <span>7.239°E</span>
+    <span class="dot"></span>
+    <span>RGF93 / CC48</span>
+  </div>
+</section>
+
+<!-- PILIERS -->
+<section class="pillars">
+  <div class="pillars__header">
+    <span class="section-num">02 —</span>
+    <h2 class="section-title">Trois expertises,<br>une même exigence.</h2>
+  </div>
+
+  <div class="pillars__grid">
+    <article class="pillar">
+      <div class="pillar__num">S1</div>
+      <h3 class="pillar__title">Scan 3D</h3>
+      <p class="pillar__desc">
+        Relevés au scanner Leica BLK. Nuages de points livrés au format
+        de votre choix — LAS, E57, RCP — avec orthophotos de niveau,
+        coupe et façade.
+      </p>
+      <a href="scan-3d.html" class="pillar__link">En savoir plus →</a>
+    </article>
+
+    <article class="pillar">
+      <div class="pillar__num">S2</div>
+      <h3 class="pillar__title">Modélisation BIM</h3>
+      <p class="pillar__desc">
+        Maquette BIM Autodesk Revit à partir de vos relevés. Plans,
+        coupes, façades professionnelles exportables en IFC, SketchUp
+        ou Revit natif.
+      </p>
+      <a href="modelisation.html" class="pillar__link">En savoir plus →</a>
+    </article>
+
+    <article class="pillar">
+      <div class="pillar__num">S3</div>
+      <h3 class="pillar__title">Visites virtuelles</h3>
+      <p class="pillar__desc">
+        Visites Matterport multi-supports, compatibles VR et Google Street
+        View. Idéales pour chantiers, commerces, hôtellerie et patrimoine
+        à valoriser.
+      </p>
+      <a href="visites-virtuelles.html" class="pillar__link">En savoir plus →</a>
+    </article>
+  </div>
+</section>
+
+<!-- MANIFESTO / ABOUT -->
+<section class="manifesto">
+  <div class="manifesto__meta">
+    <span class="section-num">03 —</span>
+    <span class="section-eyebrow">À propos</span>
+  </div>
+  <div class="manifesto__body">
+    <p class="manifesto__lead">
+      Spécialisés en relevé de bâtiment depuis 2008, nous accompagnons
+      architectes, maîtres d'ouvrage et services patrimoine avec les
+      outils de capture les plus récents — au service du projet, pas
+      l'inverse.
+    </p>
+    <p class="manifesto__text">
+      Notre réponse s'adapte à la problématique économique et
+      architecturale : du simple nuage de points à la maquette BIM
+      complète, en passant par la vectorisation, les visites virtuelles
+      et la réalité virtuelle.
+    </p>
+  </div>
+</section>
+
+<!-- STATS / CHIFFRES -->
+<section class="stats">
+  <div class="stat">
+    <div class="stat__num">2008</div>
+    <div class="stat__label">Année de création</div>
+  </div>
+  <div class="stat">
+    <div class="stat__num">BLK</div>
+    <div class="stat__label">Scanner Leica</div>
+  </div>
+  <div class="stat">
+    <div class="stat__num">BIM</div>
+    <div class="stat__label">Revit & IFC</div>
+  </div>
+  <div class="stat">
+    <div class="stat__num">68</div>
+    <div class="stat__label">Haut-Rhin, Alsace</div>
+  </div>
+</section>
+
+<!-- TRAVAUX RÉCENTS -->
+<section class="works">
+  <div class="works__header">
+    <span class="section-num">04 —</span>
+    <h2 class="section-title">Travaux récents.</h2>
+    <a href="projets.html" class="works__all">Tous les projets →</a>
+  </div>
+
+  <div class="works__grid">
+    <a href="projets.html" class="work work--large">
+      <img src="images/ruederbach-1.jpg" alt="Salle École Péri, Ruederbach" loading="lazy">
+      <div class="work__caption">
+        <span class="work__meta">01 · 68 Ruederbach</span>
+        <h3 class="work__title">Salle École Péri</h3>
+      </div>
+    </a>
+    <a href="projets.html" class="work">
+      <img src="images/rixheim-2.jpg" alt="Projet Maison M, Rixheim" loading="lazy">
+      <div class="work__caption">
+        <span class="work__meta">02 · 68 Rixheim</span>
+        <h3 class="work__title">Maison M</h3>
+      </div>
+    </a>
+    <a href="projets.html" class="work">
+      <img src="images/oeillets-1.jpg" alt="Copropriété O" loading="lazy">
+      <div class="work__caption">
+        <span class="work__meta">03 · Copropriété</span>
+        <h3 class="work__title">Les Œillets</h3>
+      </div>
+    </a>
+    <a href="projets.html" class="work">
+      <img src="images/restaurant-l4.jpg" alt="Restaurant L4" loading="lazy">
+      <div class="work__caption">
+        <span class="work__meta">04 · Restauration</span>
+        <h3 class="work__title">Restaurant L4</h3>
+      </div>
+    </a>
+  </div>
+</section>
+
+<!-- CTA FINAL -->
+<section class="final-cta">
+  <div class="final-cta__bg" aria-hidden="true">
+    <!-- Wireframe décoratif type scan 3D -->
+    <svg viewBox="0 0 1200 400" preserveAspectRatio="xMidYMid slice">
+      <defs>
+        <pattern id="scan-dots" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+          <circle cx="20" cy="20" r="1" fill="currentColor" opacity="0.4"/>
+        </pattern>
+      </defs>
+      <rect width="1200" height="400" fill="url(#scan-dots)"/>
+      <g stroke="currentColor" stroke-width="0.5" fill="none" opacity="0.3">
+        <path d="M 0 200 L 1200 200"/>
+        <path d="M 600 0 L 600 400"/>
+        <path d="M 0 100 L 1200 100" stroke-dasharray="4 4"/>
+        <path d="M 0 300 L 1200 300" stroke-dasharray="4 4"/>
+      </g>
+    </svg>
+  </div>
+  <div class="final-cta__content">
+    <h2>Un bâtiment à numériser ?</h2>
+    <p>Échangeons sur votre projet — devis sous 48h.</p>
+    <div class="final-cta__actions">
+      <a href="mailto:contact@pk-archi.com" class="btn btn--primary">contact@pk-archi.com</a>
+      <a href="tel:+33613114250" class="btn btn--ghost">06 13 11 42 50</a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="footer__col">
+    <div class="footer__logo">PKA</div>
+    <p class="footer__tag">Pierre Koch Architecte<br>Numérisation pour l'architecture</p>
+  </div>
+  <div class="footer__col">
+    <h4>Agence</h4>
+    <p>9 rue du Roggenberg<br>68130 Altkirch</p>
+    <p>06 13 11 42 50<br>contact@pk-archi.com</p>
+  </div>
+  <div class="footer__col">
+    <h4>Services</h4>
+    <a href="scan-3d.html">Scan 3D</a>
+    <a href="modelisation.html">Modélisation BIM</a>
+    <a href="visites-virtuelles.html">Visites virtuelles</a>
+  </div>
+  <div class="footer__col">
+    <h4>Suivre</h4>
+    <a href="https://www.linkedin.com/company/pierre-koch-architecte/" target="_blank" rel="noopener">LinkedIn ↗</a>
+    <a href="https://matterport.com/discover/account/7345yx9ycRM/" target="_blank" rel="noopener">Galerie Matterport ↗</a>
+    <a href="https://www.facebook.com/PierreKochArchitecte/" target="_blank" rel="noopener">Facebook ↗</a>
+  </div>
+  <div class="footer__bottom">
+    <span>© PKA 2008–2026 — SIREN 509 290 581</span>
+    <span>Copie locale · Maquette de travail</span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
