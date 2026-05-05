@@ -65,11 +65,15 @@ body {
 }
 
 .side-nav__brand {
-  font-family: var(--serif);
-  font-size: 22px;
-  font-weight: 500;
-  letter-spacing: -0.02em;
-  margin-bottom: 4px;
+  display: block;
+  margin-bottom: 8px;
+  line-height: 0;
+}
+
+.side-nav__brand-img {
+  width: 150px;
+  height: auto;
+  display: block;
 }
 
 .side-nav__brand-sub {
