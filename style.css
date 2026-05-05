@@ -895,3 +895,32 @@ body.menu-open .nav__links {
   display: block;
   margin-bottom: 0.5rem;
 }
+
+/* Lien vers v2 beta — badge fixe en bas à droite */
+.v2-beta-link {
+  position: fixed;
+  bottom: 16px;
+  right: 16px;
+  z-index: 90;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 14px;
+  background: var(--ink);
+  color: var(--bg);
+  font-family: var(--mono);
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: 1px solid var(--ink);
+  transition: background 0.15s, color 0.15s, transform 0.15s;
+}
+.v2-beta-link:hover {
+  background: var(--hot);
+  border-color: var(--hot);
+  transform: translateY(-2px);
+}
+@media (max-width: 700px) {
+  .v2-beta-link { bottom: 8px; right: 8px; padding: 6px 10px; font-size: 10px; }
+}
